@@ -1021,3 +1021,13 @@ iframe[seamless] {
 #cf:hover{
   color: #000;
 }
+
+.gitproj{
+  /* color: #ff4600; */
+}
+.gitproj:hover{
+  /* color:  var(--customColor); */
+  background-color: var(--customColor);
+  /* border-color: #000; */
+
+}
