@@ -118,18 +118,6 @@ new TypeIt("#type1", {
   .delete(20)
   .go();
 
-new TypeIt("#type2", {
-  speed: 120,
-  loop: true,
-  waitUntilVisible: true,
-})
-  .type("Competitive Programmer", { delay: 400 })
-  .pause(500)
-  .delete(22)
-  .type("MERN Stack Developer", { delay: 400 })
-  .pause(500)
-  .delete(20)
-  .go();
 
 gsap.from(".logo", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
 gsap.from(".hamburger", { opacity: 0, duration: 1, delay: 0.8, x: 20 });

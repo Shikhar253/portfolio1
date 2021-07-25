@@ -91,6 +91,7 @@ li {
 }
 
 .nav.fix-nav {
+  transition: all .5s ease-in-out;
   position: fixed;
   top: 0;
   left: 0;
