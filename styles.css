@@ -1024,6 +1024,7 @@ iframe[seamless] {
 
 .gitproj{
   /* color: #ff4600; */
+  border-radius: 0.8rem;
 }
 .gitproj:hover{
   /* color:  var(--customColor); */
