@@ -221,9 +221,9 @@ li {
     z-index: 1;
   }
 
-  .nav.show {
+   /* .nav.show {
     background-color: rgba(0, 0, 0, .8);
-  }
+  }  */
 }
 
 /* Hero */
