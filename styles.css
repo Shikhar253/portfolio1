@@ -136,6 +136,9 @@ li {
   padding: .8rem 1rem;
   transition: all 300ms ease-in-out;
 }
+.nav.fix-nav .nav-item :hover{
+  background-color: #000;
+}
 
 .nav-link:hover {
   border-radius: .3rem;
