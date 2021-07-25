@@ -155,33 +155,22 @@ gsap.from(".icons span", {
   stagger: 0.2,
 });
 
-// if($(window).scrollTop()>top)
-// {
-//   $('.back-to-top').fadeIn(1000,"easeInOutExpo");
-// }
-// else
-// {
-//   $('.back-to-top').fadeOut(1000,"easeInOutExpo");
-// }
+
+
+const toTop=document.querySelector(".back-to-top");
+
+window.addEventListener("scroll" , ()=>{
+
+  if(window.pageYOffset>200){
+    toTop.classList.add("active");
+  }else{
+    toTop.classList.remove("active");
+  }
+})
 
 
 
-// back to top fade in animate
-$(document).ready(function () {
-  $(window).scroll(function () {
-      if ($(this).scrollTop() > 200) {
-          $('.back-to-top').fadeIn();
-      } else {
-          $('.back-to-top').fadeOut();
-      }
-  });
-  $('.scrollup').click(function () {
-      $("html, body").animate({
-          scrollTop: 0
-      }, 600);
-      return false;
-  });
-});
+
 // ============================SKILLS=============================
 const skillsContent= document.getElementsByClassName('skills_content'),
 skillsHeader=document.querySelectorAll('.skills_header')

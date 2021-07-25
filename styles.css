@@ -775,7 +775,17 @@ iframe[seamless] {
   bottom: 15px;
   transition: background .5s;
   z-index: 11;
+  opacity:0;
+  pointer-events: none;
 }
+.back-to-top.active{
+  pointer-events: auto ;
+  opacity:1;
+  bottom:32px;
+}
+
+
+
 
 #codechef_icon_top{
   color: #fff;
