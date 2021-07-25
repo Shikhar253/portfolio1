@@ -54,13 +54,16 @@ li {
 }
 
 .container {
-  max-width: 114rem;
+  max-width: 90%;
   margin: 0 auto;
+  padding-right: 0;
+  padding-left: 10rem;
 }
 
 @media only screen and (max-width: 1200px) {
   .container {
     padding: 0 3rem;
+    padding-left: 0rem;
   }
 }
 
@@ -86,7 +89,8 @@ li {
 
 .nav {
   padding: .8rem 0;
-  background-color : #000;
+  background-color :none;
+  
   
 }
 
@@ -99,7 +103,7 @@ li {
   background-color: var(--customColor);
   box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
   z-index: 999;
-  opacity:1;
+  opacity:01;
 }
 
 .nav.fix-nav .logo h1 span {
