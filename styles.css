@@ -85,7 +85,9 @@ li {
 }
 
 .nav {
-  padding: 1.6rem 0
+  padding: .8rem 0;
+  background-color : #000;
+  
 }
 
 .nav.fix-nav {
@@ -96,6 +98,7 @@ li {
   background-color: var(--customColor);
   box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
   z-index: 999;
+  opacity:1;
 }
 
 .nav.fix-nav .logo h1 span {
@@ -771,6 +774,7 @@ iframe[seamless] {
   line-height: 2.655555555555555;
   font-size: 16px;
   border-radius: 50%;
+ 
   right: 15px;
   bottom: 15px;
   transition: background .5s;
@@ -784,7 +788,11 @@ iframe[seamless] {
   bottom:32px;
 }
 
-
+.back-to-top:hover{
+  background: #fff;
+  color: var(--customColor);
+  
+}
 
 
 #codechef_icon_top{
@@ -959,11 +967,13 @@ iframe[seamless] {
   padding-right:1rem;
 
 }
+
 #g{
   color:  var(--customColor);
   font-size:3rem ;
   padding:1rem;
 }
+
 #i{
   color:  var(--customColor);
   font-size:3rem ;
@@ -990,4 +1000,21 @@ iframe[seamless] {
   
 }
 
-
+#l:hover{
+  color: #000;
+}
+#g:hover{
+  color: #000;
+}
+#t:hover{
+  color: #000;
+}
+#i:hover{
+  color: #000;
+}
+#cc:hover{
+  color: #000;
+}
+#cf:hover{
+  color: #000;
+}
