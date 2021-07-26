@@ -54,6 +54,22 @@ navClose.addEventListener("click", () => {
   }
 });
 
+$('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+          $('html, body').animate({
+              scrollTop: (target.offset().top - navHeight + 5)
+          }, 1000, "easeInOutExpo");
+          return false;
+      }
+  }
+});
+$('.js-scroll').on("click", function() {
+  $('.navbar-collapse').collapse('hide');
+});
+
 // Colors
 
 const widget = document.querySelector(".widget");
