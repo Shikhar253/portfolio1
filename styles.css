@@ -210,6 +210,12 @@ li {
     padding: 1rem 1.6rem;
   }
 
+  .nav-item{
+    display: flex;
+    flex-direction: column;
+  }
+
+
   body.show::before {
     content: '';
     position: absolute;
