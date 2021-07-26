@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 
 :root {
-  --customColor: #0044ff;
-  --purple: #ce00ff;
+  --customColor: #E0B515;
+ 
   --blue: #0044ff;
   --orange: #ff4600;
-  --cyan: #03ffc7;
-  --light: #33b3e6;
+
 }
 
 
@@ -420,7 +419,7 @@ li {
 }
 
 .control .colors span:nth-child(1) {
-  background-color: #E0B515;
+  background-color:var(--blue);
 }
 
 .control .colors span:nth-child(2) {
@@ -428,7 +427,7 @@ li {
 }
 
 .control .colors span:nth-child(3) {
-  background-color: var(--blue);
+  background-color:  #E0B515;
 }
 
 .control .colors span:nth-child(4) {
