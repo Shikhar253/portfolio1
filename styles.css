@@ -1055,11 +1055,30 @@ iframe[seamless] {
   /* border-color: #000; */
 
 }
+.stack_list{
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+}
 
 .stack_list li{
-  width:100%;
+  /* width:10%; */
+  font-size: 2vh;
   text-align: center;
-  color: #fff;
+  color: #000;
+  margin-left: 1rem;
+  margin-right: 1 rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1 rem;
+  border-radius: 25px;
+  
+
+  /* padding-left: 5rem; */
+  /* padding-right: 5rem;
+  align-items: center; */
+  background-color:var(--customColor);
+  opacity: 1;
 }
 .image-container {
   position: relative;
@@ -1107,5 +1126,5 @@ iframe[seamless] {
 
 .middle-up,
 .middle-down{
-  font-size: 2vh;
+  font-size: 1.8vh;
 }
