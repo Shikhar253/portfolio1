@@ -614,7 +614,7 @@ a.btn:active,
 
 .blog-box {
   width: 100%;
-  box-shadow: 2px 2px 5px  var(--customColor);
+  box-shadow: 2px 2px 5px  rgb(70, 66, 66);
 }
 
 .image-container {
