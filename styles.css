@@ -615,7 +615,12 @@ a.btn:active,
 .blog-box {
   width: 100%;
   box-shadow: 2px 2px 5px  rgb(70, 66, 66);
+  margin-bottom: 2rem;
 }
+
+/* .blog-box :hover{
+  box-shadow: 2px 2px 5px  var(--customColor);
+} */
 
 .image-container {
   height: 25rem;
@@ -1141,4 +1146,13 @@ iframe[seamless] {
 .middle-up,
 .middle-down{
   font-size: 1.8vh;
+}
+
+.git_icons{
+  margin-left: 5%;
+  /* margin-right: 3rem; */
+  margin-top: 2%;
+}
+.subsection{
+  margin-top: 2%;
 }
