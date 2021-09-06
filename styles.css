@@ -1156,3 +1156,10 @@ iframe[seamless] {
 .subsection{
   margin-top: 2%;
 }
+
+.header #particles-js{
+  position: absolute;
+  top: 0;left: 0;
+  height: 100%;
+  width: 100%;
+}
