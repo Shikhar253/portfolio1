@@ -125,7 +125,7 @@ var pJS = function(tag_id, params){
           particles_nb: 2,
         },
       },
-      // mouse:{}
+      mouse:{}
     },
     retina_detect: true,
     fn: {
